@@ -1,4 +1,4 @@
-# Contributions guides
+# Contributor Guide
 
 Thank you for considering contributing to the scores project! Contributions of all kinds are welcome!
 
@@ -17,12 +17,13 @@ These guidelines aim to make it clear how to collaborate effectively.
 
 ## Bug Reports and Feature Requests
 
-Please submit bug requests and feature requests through Github as issues. No specific template or approach is requested at this stage. This may evolve, but is currently an open-ended approach.
+Please submit bug requests and feature requests through Github as [issues](https://github.com/nci/scores/issues). No specific template or approach is requested at this stage. This may evolve, but is currently an open-ended approach.
 
-## Handling Security Concerns
+### Handling Security Concerns
 
-The scores package is not intended to function as a security boundary, checker or gatekeeper on untrusted or malicious data inputs. It should not be passed user-generated data or be used directly in web applications. Security issues themselves should not be raised as issues on the public tracker. Instead, send an email to jive@bom.gov.au and your concerns will be acted upon.
+The scores package is not intended to function as a security boundary, checker or gatekeeper on untrusted or malicious data inputs. It should not be passed user-generated data or be used directly in web applications. Security issues themselves should not be raised as issues on the public tracker. Instead, send an email to <jive@bom.gov.au> and your concerns will be acted upon.
 
+## Development Process
 ### Development Process for a New Score or Metrics
 
 A new score or metric should be developed on a separate feature branch, rebased against the main branch. Each merge request should include:
