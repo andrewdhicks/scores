@@ -1,6 +1,6 @@
 # Welcome to the Scores Verification Package!
 
-The project source code, releases and issues can be found at https://github.com/nci/scores.
+The project source code, releases and issues can be found at <https://github.com/nci/scores>.
 
 ## Scores documentation
 
