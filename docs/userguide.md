@@ -48,6 +48,7 @@ pip install .[dev]
 #### 3. Tutorial environment <a name="tutorial"></a>
 
 Installs:
+
 * [base environment](#base-env)
 * Dependencies for running the tutorial notebooks with jupyter lab.
 
