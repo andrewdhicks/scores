@@ -9,9 +9,8 @@ theme:
     highlightjs: true
 
 nav:
-  - Documentation Index: index.md  
-  - API reference: api.md
+  - Home: index.md  
   - User Guide: userguide.md
-  - Data Guide: data.md
   - Contributor Guide: contributing.md
-  
+  - Data Guide: data.md
+  - API reference: api.md
