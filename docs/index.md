@@ -1,9 +1,9 @@
-# Welcome to Scores!
+# Welcome to the Scores Verification Package!
 
 
-## Documentation Layout
+## Scores documentation
 
-   - [ userguide.md ](userguide.md)  - Guide for users
-   - [ contributing.md ](contributing.md)  - Guide for contributors and developers
-   - [ data.md ](data.md)  - Overview of relevant data sets
-   - [ api.md ](api.md)    - API Reference Docs
+   - [ User Guide ](userguide.md)  - Installation and tutorials
+   - [ Contributor Guide ](contributing.md)  - Contributing feedback, reviews and development
+   - [ Data Guide ](data.md)  - Overview of relevant data sets
+   - [ API Reference ](api.md)    - Function documentation
