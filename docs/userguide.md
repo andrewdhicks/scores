@@ -17,14 +17,12 @@ Installs:
 
 > **_NOTE:_** Use this environment if you are unsure about what package you require.
 
-##### from PyPI
-
+from PyPI
 ```Bash
 pip install scores
 ```
 
-##### from local git repository
-
+from local git repository
 ```
 pip install .
 ```
@@ -37,14 +35,12 @@ Installs:
 * Dependencies for development on the git repository.
   * i.e running tests suite, linters, ect.
 
-##### PyPI
-
+from PyPI
 ```Bash
 pip install scores[dev]
 ```
 
-##### Local git repository
-
+from local git repository
 ```bash
 pip install .[dev]
 ```
@@ -55,38 +51,34 @@ Installs:
 * [base environment](#base-env)
 * Dependencies for running the tutorial notebooks with jupyter lab.
 
-##### PyPI
-
+from PyPI
 ```Bash
 pip install scores[tutorial]
 ```
 
-##### Local git repository
-
+from local git repository
 ```bash
 pip install .[tutorial]
 ```
 
-#### 4. maintainter environment <a name="maintainer"></a>
+#### 4. Maintainter environment <a name="maintainer"></a>
 
 Installs:
 
 * [base environment](#base-env)
 * Dependencies for building new versions of the `scores` package,
 
-##### PyPI
-
+from PyPI
 ```Bash
 pip install scores[maintainer]
 ```
 
-##### Local git repository
-
+from local git repository
 ```bash
 pip install .[maintainer]
 ```
 
-#### 4. All environment <a name="all"></a>
+#### 5. All environment <a name="all"></a>
 
 Installs:
 
@@ -94,21 +86,19 @@ Installs:
 * [dev dependencies](#dev)
 * [tutorial dependencies](#tutorial)
 
-##### from PyPI
-
+from PyPI
 ```Bash
 pip install scores[all]
 ```
 
-##### Local git repository
-
+from local git repository
 ```bash
 pip install .[all]
 ```
 
 ## Tutorials and Worked Examples
 
-Tutorials are included in the form of Jupyter Notebooks, within the 'tutorials' directory. There is a tutorial for each scoring metric included in the scores package.
+Tutorials are included in the form of Jupyter Notebooks, within the `tutorials` directory. There is a tutorial for each scoring metric included in the scores package.
 
 A Jupyter Notebook server and plotting dependencies are not included in the package dependencies by default, to keep the package lightweight. To execute the tutorial notebooks, from within your python virtual environment, run the [tutorial installation snippet here](#tutorial).
 
@@ -126,9 +116,9 @@ jupyter notebook
 
 Each score is documented in the [API documentation](api.md). A simple listing of the currently implemented scores is:
 
- - Mean Absolute Error
- - Mean Squared Error
- - Continuous Ranked Probability Score
+ - [Mean Absolute Error][scores.continuous.mae]
+ - [Mean Squared Error][scores.continuous.mse]
+ - [Continuous Ranked Probability Score][scores.probability.crps_cdf]
 
 The following scores are expected to be added shortly:
 
